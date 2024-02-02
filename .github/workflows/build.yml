@@ -1,6 +1,7 @@
 on: push
 jobs:
   first-job:
+    runs-on: windows-latest
     steps:
         - run: echo "Hello, world!"
         - run: echo "This is my first action"
